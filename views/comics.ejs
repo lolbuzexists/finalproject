@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+</head>
+<body>
+  <h1>Create comic</h1>
+  <form action="/comics" method="POST" >
+    <label for="title">Comic title:</label>
+    <input type="text" id="title" name="title" required>
+    <br>
+    <label for="isbn13">comic isbn13:</label>
+    <input type="text" id="isbn13" name="isbn13">
+    <br>
+    <label for="pDate">comic publishing date:</label>
+    <input type="text" id="pDate" name="pDate">
+    <br>
+    <label for="seID">comic series ID:</label>
+    <input type="text" id="seID" name="seID">
+    <br>
+    <label for="pCount">comic page page count id:</label>
+    <input type="text" id="pCount" name="pageID">
+    <br>
+    <label for="gID">comic genre id:</label>
+    <input type="text" id="gID" name="gID">
+    <br>
+    <label for="coID">comic company id:</label>
+    <input type="text" id="coID" name="coID">
+    <br>
+    </select>
+    <br>
+    <button type="submit">Create comic</button>
+  </form>
+</body>
+</html>

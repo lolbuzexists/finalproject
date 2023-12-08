@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+</head>
+<body>
+  <h1>Create person</h1>
+  <form action="/people" method="POST" >
+    <label for="first_name">first name:</label>
+    <input type="text" id="first_name" name="first_name" required>
+    <br>
+    <label for="last_name">last name:</label>
+    <input type="text" id="last_name" name="last_name" required>
+    <br>
+    <label for="rID">role id:</label>
+    <input type="text" id="rID" name="rID" required>
+    <br>
+    <label for="seID">series id:</label>
+    <input type="text" id="seID" name="seID" required>
+    <br>
+    </select>
+    <br>
+    <button type="submit">Create person</button>
+  </form>
+</body>
+</html>

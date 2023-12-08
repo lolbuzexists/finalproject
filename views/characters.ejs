@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+</head>
+<body>
+  <h1>Create character</h1>
+  <form action="/characters" method="POST" >
+    <label for="name">Character name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="seID">Character series id:</label>
+    <input type="text" id="seID" name="seID" required>
+    <br>
+    </select>
+    <br>
+    <button type="submit">Create character</button>
+  </form>
+</body>
+</html>
